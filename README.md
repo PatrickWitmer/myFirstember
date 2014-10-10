@@ -1,4 +1,4 @@
-starter-kit
+OMG HELP ME
 ===========
 
 A starter kit for Ember
