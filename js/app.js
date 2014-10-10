@@ -33,11 +33,11 @@ App.PostController = Ember.ObjectController.extend({
 	}
 });
 
-Ember.Handlebars.helper('mat-Date', function(date) {
+Ember.Handlebars.helper('formatDate', function(date) {
   return moment(date).fromNow();
 });
 
-Ember.Handlebars.helper('format-markdown', function(input) {
+Ember.Handlebars.helper('formatMarkdown', function(input) {
   return new Handlebars.SafeString(showdown.makeHtml(input));
 });
 
